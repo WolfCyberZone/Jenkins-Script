@@ -63,12 +63,7 @@ pipeline{
             steps{
                 echo 'Completed...'
             }
-        }
-        //Test GitHub Webhook
-        stage('Test GitHub Webhook'){
-            steps{
-                echo 'Test GitHub Webhook...'
-            }
+       
         }
     }
 
