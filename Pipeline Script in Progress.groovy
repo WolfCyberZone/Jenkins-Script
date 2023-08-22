@@ -58,6 +58,12 @@ pipeline{
                 echo 'Build & Deploy to Staging...'
             }
         }
+        //Completed 
+        stage('Completed'){
+            steps{
+                echo 'Completed...'
+            }
+        }
     }
 
 }
