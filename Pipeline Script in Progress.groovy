@@ -40,7 +40,7 @@ pipeline{
                 echo 'Passing...'
             }
         }
-        // Test Report
+        // est Report
         stage('Test Report'){
             steps{
                 echo 'Test Report...'
